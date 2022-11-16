@@ -32,7 +32,7 @@ string infix_to_postfix(string s)
         }
         else if (s[i] == '(')
         {
-            st.push(s[i]);
+            st.push(s[ i]);
         }
         else if (s[i] == ')')
         {
